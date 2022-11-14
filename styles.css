@@ -22,13 +22,14 @@ body {
 
 a{
     padding: 10px;
+    cursor: pointer;
 }
 
 .conteudo {
-    width: 100%; /* largura */
-    display: flex; /* permite que alteremos a posição dos elementos na tela */
-    justify-content: space-between; /* permite justificar / alinhar os componentes na horizontal */
-    align-items: center; /* permite alinhar os componentes na vertical*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .caixa-texto {
@@ -61,23 +62,24 @@ span {
 
 p {
     font-size: 16px;
-    /* tamanho da fonte */
 }
 
 button {
     background: #017143;
-    /* background -> fundo do elemento */
     color: white;
-    /* cor do texto */
     border-radius: 40px;
-    /* arredondamento da borda */
     border: none;
-    /* borda do elemento */
     cursor: pointer;
-    /* cursor do mouse */
     padding: 10px;
-    /* espaçamento interno */
     margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
 }
 
 .logo {
